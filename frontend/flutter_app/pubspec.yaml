@@ -1,0 +1,29 @@
+name: neuroscan_ai
+description: NeuroScan AI – Brain Tumor MRI Classification & Patient Management
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  fl_chart: ^0.66.2
+  image_picker: ^1.0.7
+  percent_indicator: ^4.2.3
+  intl: ^0.19.0
+  http_parser: ^4.0.2
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
